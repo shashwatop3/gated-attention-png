@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints / weights (large binaries, not tracked)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+checkpoints_llm_v3/
+checkpoints_llm_unfrozen/
+
+# Data
+data/
+*.csv
+*.parquet
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Reference PDFs not owned by this project
+2505.06708v1.pdf
+
+# Logs / experiment tracking
+wandb/
+*.log
